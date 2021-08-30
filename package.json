@@ -1,0 +1,34 @@
+{
+  "name": "@yek-plus/ivd",
+  "version": "1.0.0",
+  "description": "IVD connector",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YEK-PLUS/ivd.git"
+  },
+  "keywords": [
+    "ivd"
+  ],
+  "author": "YEK-PLUS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YEK-PLUS/ivd/issues"
+  },
+  "homepage": "https://github.com/YEK-PLUS/ivd#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "qs": "^6.10.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
