@@ -1,6 +1,6 @@
 {
   "name": "@yek-plus/ivd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IVD connector",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "ivd"
   ],
   "author": "YEK-PLUS",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/YEK-PLUS/ivd/issues"
   },

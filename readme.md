@@ -44,7 +44,7 @@ ivd()
 ### Response
 
 ```js
-{
+const response = {
   durum: String,
   tckn: String,
   durum_text: String,
