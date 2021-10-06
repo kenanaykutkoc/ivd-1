@@ -11,7 +11,7 @@ npm install @yek-plus/ivd
 ```js
 const ivd = require("@yek-plus/ivd");
 ivd()
-  .get({
+  .get.org({
     ilNo: "34",
     vdNo: "034247",
     vNo: "3090345332",
@@ -29,6 +29,82 @@ ivd()
 # Methods
 
 ## get
+
+---
+
+### Il
+
+### Usage
+
+```js
+ivd().get.vdIller();
+```
+
+#### Input
+
+| property | type | required | default | description |
+| -------- | ---- | -------- | ------- | ----------- |
+
+
+#### Response
+
+```js
+const response = [
+  {
+    kod: String,
+    ad: String,
+  },
+];
+```
+
+---
+
+### Daireler
+
+### Usage
+
+```js
+ivd().get.vdDaireler({ kod: "001" });
+```
+
+#### Input
+
+| property | type   | required | default | description |
+| -------- | ------ | -------- | ------- | ----------- |
+| kod      | string | true     | null    | il kodu     |
+
+#### Response
+
+```js
+const response = [
+  {
+    vdKodu: String,
+    vdAdi: String,
+    orgOid: String,
+    vdKoduAdi: String,
+    vdAdiKodu: String,
+    ilKodu: String,
+  },
+];
+```
+
+---
+
+### Org
+
+### Usage
+
+```js
+const ivd = require("@yek-plus/ivd");
+ivd()
+  .get.org({
+    ilNo: "34",
+    vdNo: "034247",
+    vNo: "3090345332",
+    tckNo: "",
+  })
+  .then(console.log);
+```
 
 ### Input
 
@@ -59,5 +135,3 @@ const response = {
 # Todo
 
 - [ ] Write Tests
-- [ ] Write ilNo getter method
-- [ ] Write vdNo getter method
